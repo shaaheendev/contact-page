@@ -14,6 +14,9 @@ body {
 h1 {
   font-size: 4em;
 }
+p {
+  font-size: 2.5em;
+}
 .description {
   width: 80%;
   max-width: 750px;
@@ -60,8 +63,8 @@ button {
   color: #4036a9;
 }
 img {
-  width: 70px;
-  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 .img-container {
   width: 100%;
