@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="../bootstrappro/assets/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="py-2">
+    <div class="img-container">
+      <img src="assets/resources/contact-form-icon.svg" alt="icon" />
+    </div>
+    <div class="description">
+      <h1 class="text-center">Interested in our business pricing?</h1>
+      <p class="text-center">
+        Fill out the form to view details and we’ll contact you as soon as
+        possible.
+      </p>
+    </div>
+
+    <form action="" class="rounded-4 p-3 my-2">
+      <div class="row g-3 gx-2">
+        <div class="col-sm-6">
+          <label for="name"
+            >Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ethan Johnson"
+            />
+          </label>
+        </div>
+        <div class="col-sm-6">
+          <label for="email"
+            >Compay Email
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="ethan@johnson.com"
+            />
+          </label>
+        </div>
+        <div class="col-sm-6">
+          <label for="company-size"
+            >Company Size
+            <select name="company-size" id="company-size">
+              <option value="1-50">1-50 employees</option>
+              <option value="50-100" selected>50-100 employees</option>
+              <option value="100-500">100-500 employees</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="subject"
+            >Subject
+            <select name="subject" id="subject">
+              <option value="building-landing-pages" selected>
+                Building Landing pages
+              </option>
+              <option value="buiding templates">Building templates</option>
+            </select>
+          </label>
+        </div>
+        <div class="col-12">
+          <label for="message">
+            Message
+            <textarea name="message" id="message" cols="30" rows="7">
+50-100 employees</textarea
+            >
+          </label>
+        </div>
+        <div class="col-12">
+          <button>Contact Sales</button>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
