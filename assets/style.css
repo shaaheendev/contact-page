@@ -12,10 +12,10 @@ body {
   color: #f8fafc;
 }
 h1 {
-  font-size: 4em;
+  font-size: 8vw;
 }
 p {
-  font-size: 2.5em;
+  font-size: 4vw;
 }
 .description {
   width: 80%;
@@ -90,5 +90,13 @@ img {
   }
   p {
     font-size: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4em;
+  }
+  p {
+    font-size: 3em;
   }
 }
